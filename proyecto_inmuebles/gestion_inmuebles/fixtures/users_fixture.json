@@ -1,0 +1,92 @@
+[
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$96IqE9OEHyVqUlWLvo8RZ6$EV7WRxEChFM8mHKnHxyFF09jmE5w4MBGEnaSmjlHzuA=",
+        "last_login": "2026-09-15T22:20:11.063Z",
+        "is_superuser": true,
+        "username": "Maj0",
+        "first_name": "",
+        "last_name": "",
+        "email": "majo.sarabia@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-09-12T01:27:41.081Z",
+        "rut": "",
+        "direccion": null,
+        "telefono": null,
+        "tipo_usuario_por_defecto": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 2,
+    "fields": {
+        "password": "1457",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Brunito",
+        "first_name": "Bruno",
+        "last_name": "El Perrito",
+        "email": "asd@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-12T01:40:26Z",
+        "rut": "10000000-k",
+        "direccion": "Perrito bonito 1",
+        "telefono": "1313",
+        "tipo_usuario_por_defecto": "arrendador",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$5Kx4ex0UcimM7Qeo2HNTeI$6Les656RvL2J+bB4cQQ+O19r0Ye56lfne/1lzrdS+UM=",
+        "last_login": "2026-09-15T14:57:41.349Z",
+        "is_superuser": false,
+        "username": "BrunitoElPerrito",
+        "first_name": "Bruno",
+        "last_name": "Sarabia",
+        "email": "brunisss@asdf.cl",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-15T14:56:22.450Z",
+        "rut": "111111-5",
+        "direccion": null,
+        "telefono": null,
+        "tipo_usuario_por_defecto": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$tGfNsCDzVHFcqydrZAxCvG$BivnRHvx4y3FohTy+AjXVSusAIMTUSQF/MxJJpdB6co=",
+        "last_login": "2026-09-15T15:06:32Z",
+        "is_superuser": false,
+        "username": "Juana_La_Rana",
+        "first_name": "Juana",
+        "last_name": "Rana",
+        "email": "juanalarana@asdd.cl",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-15T15:06:31Z",
+        "rut": "46252-6",
+        "direccion": null,
+        "telefono": null,
+        "tipo_usuario_por_defecto": "arrendatario",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+}
+]

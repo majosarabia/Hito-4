@@ -1,0 +1,16 @@
+[
+    {
+        "model": "gestion_inmuebles.Usuario",
+        "pk": 10,
+        "fields": {
+            "rut": "",
+            "direccion": "",
+            "telefono": "",
+            "tipo_usuario_por_defecto": "",
+            "username": "",
+            "first_name": "",
+            "last_name": "",
+            "email": ""
+        }
+    }
+]

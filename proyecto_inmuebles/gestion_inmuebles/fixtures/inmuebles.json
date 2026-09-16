@@ -1,0 +1,62 @@
+[
+    {
+        "model": "gestion_inmuebles.Inmueble",
+        "pk": 1,
+        "fields": {
+            "nombre": "Departamento Concepción Centro",
+            "descripcion": "Hermoso departamento ubicado en pleno centro de Concepción",
+            "m2_construidos": 56,
+            "m2_totales": 62,
+            "estacionamientos": 1,
+            "habitaciones": 1,
+            "banos": 1,
+            "direccion": "Avenida O'higgins #1457",
+            "comuna":219,
+            "tipo_inmueble": 1,
+            "precio_mensual": 560000,
+            "dueno": 1,
+            "fecha_creacion": "2026-09-15T18:17:00-03:00",
+            "fecha_ultima_modificacion": "2026-09-15T18:17:00-03:00"
+        }
+    },
+        {
+        "model": "gestion_inmuebles.Inmueble",
+        "pk": 2,
+        "fields": {
+            "nombre": "Departamento en Providencia",
+            "descripcion": "Departamento estilo mariposa, ubicado a pasos de Parque Inés de Suarez, cercano a estaciones de metro. Incluye bodega",
+            "m2_construidos": 58,
+            "m2_totales": 66,
+            "estacionamientos": 1,
+            "habitaciones": 2,
+            "banos": 2,
+            "direccion": "Francisco Bilbao #1457",
+            "comuna":105,
+            "tipo_inmueble": 1,
+            "precio_mensual": 660000,
+            "dueno": 1,
+            "fecha_creacion": "2026-09-15T18:17:00-03:00",
+            "fecha_ultima_modificacion": "2026-09-15T18:17:00-03:00"
+        }
+    },
+            {
+        "model": "gestion_inmuebles.Inmueble",
+        "pk": 3,
+        "fields": {
+            "nombre": "Casa Excelente Ubicación",
+            "descripcion": "Casa de esquina, ubicada en la comuna de Providencia, cercana a embajadas, supermercados, estaciones de metro. Barrio residencial",
+            "m2_construidos": 225,
+            "m2_totales": 420,
+            "estacionamientos": 3,
+            "habitaciones": 4,
+            "banos": 5,
+            "direccion": "José Miguel Claro #5714",
+            "comuna":105,
+            "tipo_inmueble": 2,
+            "precio_mensual": 1240000,
+            "dueno": 1,
+            "fecha_creacion": "2026-09-15T18:17:00-03:00",
+            "fecha_ultima_modificacion": "2026-09-15T18:17:00-03:00"
+        }
+    }
+]

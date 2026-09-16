@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div>
+    Bienvenido {{ request.user.username }}
+    nombres: {{ request.user.first_name }}
+    apellidos: {{ request.user.last_name }}
+    correo: {{ request.user.email }}
+    <a href="{% url 'actualizar_perfil' %}">Actualizar Perfil</a>
+    <a href="{% url 'agregar_inmueble' %}">Agregar Inmueble</a>
+
+</div>
+{% endblock %}
